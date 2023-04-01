@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Image, Card} from 'react-native';
 
 
-class App extends Component{
-  render(){
+export default function App(){
     let nome = 'Raphael Reis';
     let img = 'https://static.dicionariodesimbolos.com.br/upload/dc/6a/simbolo-do-batman-1_xl.jpeg';
 
@@ -32,7 +31,5 @@ class App extends Component{
       </View>
     )
   }
-}
 
 
-export default App;
